@@ -7,6 +7,7 @@ urlpatterns = [
     path('time/', views.time, name="anti-time"),
     path('test/', views.test, name="anti-test"),
 
+    path('instructions/', views.instructions, name="anti-instructions"),
     path('shop/', views.store, name="anti-store"),
     path('cart/', views.cart, name="anti-cart"),
     path('checkout/', views.checkout, name="anti-checkout")

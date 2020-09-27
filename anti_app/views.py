@@ -19,6 +19,9 @@ def time(request):
 def test(request):
     return render(request, 'anti_app/test.html')
 
+def instructions(request):
+    context = {}
+    return render(request, 'anti_app/instructions.html', context)
 
 def store(request):
     context = {}
