@@ -1,0 +1,16 @@
+body {
+    /* height: 100%; */
+    background: linear-gradient(90deg, white 50%, #414141 50%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    grid-gap: 5em;
+    /* border: yellow 1px solid; */
+    /* grid-auto-rows: 100%; */
+    height: 100%;
+    align-items: center;
+    /* justify-content: center; */
+}
